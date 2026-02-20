@@ -102,7 +102,7 @@ function displayTasks() {
             <td class="p-2 border-b border-[#605b53] ${textStyle}">${task.dueDate}</td>
             <td class="p-2 border-b border-[#605b53]">${task.completed ? 'Complete' : 'Incomplete'}</td>
             <td class="p-2 border-b border-[#605b53]">
-                <button onclick="completeTask(${task.id})" class="p-1 bg-[#11ac77] text-black rounded cursor-pointer">
+                <button onclick="completeTask(${task.id})" class="p-1 bg-[#11ac77] text-white font-bold rounded cursor-pointer">
                     ${task.completed ? 'Undo' : 'Done'}
                 </button>
                 <button onclick="deleteTask(${task.id})" class="p-1 bg-[#ff4c4c] text-white rounded cursor-pointer">🗑</button>
